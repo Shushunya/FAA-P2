@@ -3,3 +3,4 @@ uv.lock
 .git/
 __pycache__/
 *.egg-info
+report/
