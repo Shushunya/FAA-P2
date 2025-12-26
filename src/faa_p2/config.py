@@ -16,6 +16,11 @@ CLEAN_DATA_FILE = DATA_DIR / "processed_housing.csv"
 MODEL_RESULTS_FILE = DATA_DIR / "models.csv"
 
 # ----------- MODELING ---------------
+
+RANDOM_STATE = 1
+DATA_SPLIT_RATIO = 0.2
+
+
 # Model keynames
 LR, RFR, XGBR = "lr", "rfr", "xgbr"
 KEYS = [LR, RFR, XGBR]
