@@ -43,3 +43,7 @@ MODELS = {
     }
     for key in KEYS
 }
+
+
+# SHAP
+SAMPLE_IND = 15

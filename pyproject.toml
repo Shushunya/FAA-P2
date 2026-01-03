@@ -6,12 +6,15 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "joblib>=1.5.3",
+    "lime>=0.2.0.1",
     "matplotlib>=3.10.8",
     "notebook>=7.5.1",
-    "numpy>=2.4.0",
+    "numba>=0.57.0",
+    "numpy>=2.0,<2.3",
     "pandas>=2.3.3",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
+    "shap>=0.45.0",
     "xgboost>=3.1.2",
 ]
 
